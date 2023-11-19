@@ -29,7 +29,7 @@ fetch_btn.addEventListener("click", async () => {
     const init = {
         method: "GET",
         headers: headers,
-        mode: "cors",
+        mode: "no-cors",
         cache: "default",
     };
 
